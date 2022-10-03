@@ -11,3 +11,67 @@
     @apply bg-zinc-900;
   }
 }
+
+.name {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.logo polyline {
+  stroke: #ffa500;
+}
+.logo .path {
+  stroke: #ffa500;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 100%;
+  animation: dash 5s linear;
+}
+.logo .path:nth-child(9) {
+  animation-delay: -1.5s;
+}
+.logo .path:nth-child(9) {
+  animation-delay: -1.35s;
+}
+.logo .path:nth-child(8) {
+  animation-delay: -1.2s;
+}
+.logo .path:nth-child(7) {
+  animation-delay: -1.05s;
+}
+.logo .path:nth-child(6) {
+  animation-delay: -0.9s;
+}
+.logo .path:nth-child(5) {
+  animation-delay: -0.75s;
+}
+.logo .path:nth-child(4) {
+  animation-delay: -0.6s;
+}
+.logo .path:nth-child(3) {
+  animation-delay: -0.45s;
+}
+.logo .path:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.logo .path:nth-child(1) {
+  animation-delay: -0.15s;
+}
+@keyframes dash {
+  0%,
+  50% {
+    stroke-dashoffset: 100%;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
