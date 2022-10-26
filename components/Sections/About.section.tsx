@@ -21,7 +21,7 @@ const About: NextComponentType = () => {
           compeditive programming, fitness and communities. <br />
         </p>
 
-        <Link href="/assests/Alex_Hu_Resume_2022.pdf" passHref>
+        <Link href="/assests/Alex_Hu_Resume_2023.pdf" passHref>
           <a
             className="font-jost mt-4 flex cursor-pointer flex-row items-center gap-1 text-xl text-gray-400 duration-100 hover:ml-2"
             rel="noopener noreferrer"
