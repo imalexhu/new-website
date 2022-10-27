@@ -35,8 +35,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         defaultTitle="Alex Hu | Software Enginee"
         description="Hey! I'm Alex Hu, a SWE passionate about products and new technologies"
         openGraph={{
-          url: "https://www.anurag.tech/",
-          title: "Anurag | Frontend Developer",
+          url: "https://www.imalexhu.com/",
+          title: "Alex Hu | Frontend Developer",
           description:
             "Hey! I'm Alex Hu, a SWE passionate about products and new technologies",
         }}
