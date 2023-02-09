@@ -3,7 +3,7 @@ import { BsArrowRightShort, VscTools } from "../Misc/Icons.collection";
 
 const Skills = () => {
   return (
-    <div className="font-sen my-16 px-3 text-white" id="skills">
+    <div className="my-16 px-3 font-sen text-white" id="skills">
       <div className="flex">
         <VscTools size="30" />
         <p className="ml-4 text-3xl font-bold text-white">
@@ -11,7 +11,7 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className="text-md custom:text-lg my-8 flex flex-col font-medium md:text-xl">
+      <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-xl  text-slate-300 duration-100 hover:ml-2 hover:cursor-pointer">
           <Link href="https://github.com/t3-oss/create-t3-app" passHref>
             <span className=" bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA] bg-clip-text font-extrabold text-transparent">
@@ -59,7 +59,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="text-md custom:text-lg my-8 flex flex-col font-medium md:text-xl">
+      <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-xl  text-slate-300 duration-100 hover:ml-2 hover:cursor-pointer">
           <Link href="https://github.com/t3-oss/create-t3-app" passHref>
             <span className=" bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA] bg-clip-text font-extrabold text-transparent">
@@ -71,27 +71,39 @@ const Skills = () => {
         <div className="ml-4">
           <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300 duration-100 hover:ml-2 ">
             <BsArrowRightShort size="30" />
-            <span className="text-white">Laravel @PAC Digital</span>
-            &nbsp;as the main framework for the application
+            <span className="text-white">Laravel </span>
+            &nbsp;@PAC Digital
           </p>
 
           <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300 duration-100 hover:ml-2 ">
             <BsArrowRightShort size="30" />
             <span className="text-white">
-              Node & Express & Websockets & Jest @PAC Digital
+              Node & Express & Websockets & Jest
             </span>
-            &nbsp;to build a microservice in a TDD environment
+            &nbsp;@PAC Digital
           </p>
 
           <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300 duration-100 hover:ml-2 ">
             <BsArrowRightShort size="30" />
-            <span className="text-white">JIRA & Bitbucket @PAC Digital</span>
-            &nbsp;CI/CD tools
+            <span className="text-white">JIRA & Bitbucket</span>
+            &nbsp;@PAC Digital
+          </p>
+
+          <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300 duration-100 hover:ml-2 ">
+            <BsArrowRightShort size="30" />
+            <span className="text-white">Highly Performant C++</span>
+            &nbsp;@Akuna Capital
+          </p>
+
+          <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300 duration-100 hover:ml-2 ">
+            <BsArrowRightShort size="30" />
+            <span className="text-white">Docker & Gitlab</span>
+            &nbsp;@Akuna Capital
           </p>
         </div>
       </div>
 
-      <div className="text-md custom:text-lg my-8 flex flex-col font-medium md:text-xl">
+      <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-xl  text-slate-300 duration-100 hover:ml-2 hover:cursor-pointer">
           <Link href="https://github.com/t3-oss/create-t3-app" passHref>
             <span className=" bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA] bg-clip-text font-extrabold text-transparent">
