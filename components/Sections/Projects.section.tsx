@@ -26,6 +26,22 @@ const Projects: NextComponentType = () => {
             </div>
           </a>
         </Link>
+        
+        <Link href="https://www.discountly.com.au/" passHref>
+          <a
+            className="h-[11rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#A1D3FE] to-[#718EF8] p-1 text-white duration-100 hover:scale-105"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
+              <p className="text-xl font-semibold">Discountly</p>
+              <p>Online Shopping Chrome Extension</p>
+              <div className="mt-2"></div>
+              <Icon icon={<AiOutlineLink />} url="https://www.discountly.com.au/" />
+
+            </div>
+          </a>
+        </Link>
 
         <Link href="https://omada.netlify.app/" passHref>
           <a

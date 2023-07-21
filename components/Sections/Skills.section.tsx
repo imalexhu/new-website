@@ -124,6 +124,12 @@ const Skills = () => {
             <span className="text-white">MongoDB & Mongoose</span>
             &nbsp;from previous Projects
           </p>
+
+          <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300 duration-100 hover:ml-2 ">
+            <BsArrowRightShort size="30" />
+            <span className="text-white">AWS technologies</span>
+            &nbsp;most notably AWS Lambda and DynamoDB from Discountly
+          </p>
         </div>
       </div>
 
