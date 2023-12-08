@@ -12,13 +12,13 @@ const About: NextComponentType = () => {
       <div>
         <p className="text-3xl font-bold text-white">Alex Hu</p>
         <p className="mt-1 text-lg text-gray-300">
-          Full Stack Developer, Compeditive Programmer, and a Student
+          Full Stack Developer, Competitive Programmer, and a Student
         </p>
 
         <p className="mt-4 text-gray-400">
           Passionate about new technologies, building exciting products,
           <br />
-          compeditive programming, fitness and communities. <br />
+          competitive programming, fitness and communities. <br />
         </p>
 
         <Link href="/assests/Alex_Hu_Resume_2023.pdf" passHref>

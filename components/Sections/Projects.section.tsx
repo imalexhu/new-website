@@ -17,7 +17,7 @@ const Projects: NextComponentType = () => {
           >
             <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
               <p className="text-xl font-semibold">RSP</p>
-              <p>System for managing Leetcode and Mock Interviews</p>
+              <p>System for managing LeetCode and Mock Interviews</p>
               <div className="mt-2"></div>
               <Icon
                 icon={<AiOutlineGithub />}
@@ -51,7 +51,7 @@ const Projects: NextComponentType = () => {
           >
             <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
               <p className="text-xl font-semibold">Omada</p>
-              <p>Hackerank project for automating team projects</p>
+              <p>HackeRank project for automating team projects</p>
               <div className="mt-2"></div>
 
               <Icon icon={<AiOutlineLink />} url="https://omada.netlify.app/" />

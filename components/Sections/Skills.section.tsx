@@ -18,7 +18,7 @@ const Skills = () => {
               T3
             </span>
           </Link>
-          &nbsp;as my perfered stack for personal projects
+          &nbsp;as my preferred stack for personal projects
         </p>
         <div className="ml-4">
           <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300 duration-100 hover:ml-2 ">
@@ -66,7 +66,7 @@ const Skills = () => {
               Tools I have used
             </span>
           </Link>
-          &nbsp;in a proffessional context
+          &nbsp;in a professional context
         </p>
         <div className="ml-4">
           <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300 duration-100 hover:ml-2 ">
@@ -116,7 +116,7 @@ const Skills = () => {
           <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300 duration-100 hover:ml-2 ">
             <BsArrowRightShort size="30" />
             <span className="text-white">C++</span>
-            &nbsp;as my compeditive programming language
+            &nbsp;as my competitive programming language
           </p>
 
           <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300 duration-100 hover:ml-2 ">
